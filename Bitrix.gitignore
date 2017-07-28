@@ -1,4 +1,6 @@
 # Bitrix Framework
 
 /vendor/*
-/bitrix/.settings
+/bitrix/.settings.php
+/bitrix/php_interface/dbconn.php
+/bitrix/.settings_extra.php
