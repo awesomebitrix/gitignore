@@ -14,3 +14,4 @@
 /bitrix/stack_cache/*
 
 /bitrix/tmp/*
+/upload/tmp/*
