@@ -15,3 +15,5 @@
 
 /bitrix/tmp/*
 /upload/tmp/*
+
+/bitrix/backup/*
