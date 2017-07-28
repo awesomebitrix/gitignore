@@ -1,3 +1,4 @@
 # Bitrix Framework
 
 /vendor/*
+/bitrix/.settings
