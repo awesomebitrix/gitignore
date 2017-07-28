@@ -12,6 +12,7 @@
 /upload/resize_cache/*
 /bitrix/managed_cache/*
 /bitrix/stack_cache/*
+/bitrix/html_pages/*
 
 /bitrix/tmp/*
 /upload/tmp/*
