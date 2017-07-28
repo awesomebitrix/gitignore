@@ -9,4 +9,4 @@
 /bitrix/modules/error.log
 
 /bitrix/cache/*
-/bitrix/tmp
+/bitrix/tmp/*
