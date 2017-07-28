@@ -18,3 +18,5 @@
 /upload/tmp/*
 
 /bitrix/backup/*
+
+/bitrix/tmp/tests/*
