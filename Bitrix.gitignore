@@ -7,3 +7,5 @@
 /bitrix/.settings_extra.php
 
 /bitrix/modules/error.log
+
+/bitrix/cache
