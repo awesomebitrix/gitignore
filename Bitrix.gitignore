@@ -9,4 +9,8 @@
 /bitrix/modules/error.log
 
 /bitrix/cache/*
+/upload/resize_cache/*
+/bitrix/managed_cache/*
+/bitrix/stack_cache/*
+
 /bitrix/tmp/*
