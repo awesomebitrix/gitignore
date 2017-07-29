@@ -10,6 +10,7 @@
 /bitrix/tmp/logs/*
 /bitrix/tmp/logs/!.htaccess
 *.log
+/log.txt
 
 /bitrix/cache/*
 /upload/resize_cache/*
