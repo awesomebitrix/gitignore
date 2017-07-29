@@ -43,3 +43,7 @@ bower_components/
 /restore.php
 
 /phpunit.xml
+
+.env.*.php
+.env.php
+.env
