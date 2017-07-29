@@ -4,6 +4,11 @@ composer.phar
 vendor/
 #composer.lock
 
+node_modules/
+npm-debug.log
+
+bower_components/
+
 /bitrix/.settings.php
 /bitrix/php_interface/dbconn.php
 /bitrix/.settings_extra.php
@@ -36,7 +41,5 @@ vendor/
 
 /bitrixsetup.php
 /restore.php
-
-bower_components
 
 /phpunit.xml
