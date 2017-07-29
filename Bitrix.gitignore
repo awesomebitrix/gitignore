@@ -23,3 +23,6 @@
 /bitrix/backup/*
 
 /bitrix/tmp/tests/*
+
+/build/
+/dist/
