@@ -32,3 +32,5 @@ robots.txt
 
 /bitrixsetup.php
 /restore.php
+
+bower_components
