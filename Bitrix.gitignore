@@ -8,6 +8,7 @@
 
 /bitrix/modules/error.log
 /bitrix/tmp/logs/*
+/bitrix/tmp/logs/!.htaccess
 *.log
 
 /bitrix/cache/*
