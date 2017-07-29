@@ -36,3 +36,5 @@ robots.txt
 /restore.php
 
 bower_components
+
+/phpunit.xml
