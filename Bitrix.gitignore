@@ -1,6 +1,8 @@
 # Bitrix Framework
 
-/vendor/
+composer.phar
+vendor/
+#composer.lock
 
 /bitrix/.settings.php
 /bitrix/php_interface/dbconn.php
