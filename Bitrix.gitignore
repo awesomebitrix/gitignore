@@ -30,7 +30,9 @@ vendor/
 /build/
 /dist/
 
-robots.txt
+/robots.txt
+
+/.htaccess
 
 /bitrixsetup.php
 /restore.php
