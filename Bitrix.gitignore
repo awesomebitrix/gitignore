@@ -1,23 +1,31 @@
 # Bitrix Framework
 
+## Composer, https://getcomposer.org/
 composer.phar
-vendor/
-#composer.lock
+/vendor/
+composer.lock
 
+## Node and npm, https://www.npmjs.com/
 node_modules/
 npm-debug.log
 
+## Bower, https://bower.io/
 bower_components/
 
 /bitrix/.settings.php
 /bitrix/php_interface/dbconn.php
 /bitrix/.settings_extra.php
 
+## Logs
 /bitrix/modules/error.log
 /bitrix/tmp/logs/*
 /bitrix/tmp/logs/!.htaccess
 *.log
 /log.txt
+
+
+/upload
+
 
 /bitrix/cache/*
 /upload/resize_cache/*
@@ -47,5 +55,7 @@ bower_components/
 .env.*.php
 .env.php
 .env
+!.env.example
 
+# Rocketeer, http://rocketeer.autopergamene.eu/
 .rocketeer/
