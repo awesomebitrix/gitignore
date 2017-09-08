@@ -50,6 +50,7 @@ bower_components/
 /dist/
 
 /robots.txt
+!/robots.txt.sample
 
 ## .htaccess, http://httpd.apache.org/docs/2.2/howto/htaccess.html
 .htaccess
@@ -71,5 +72,4 @@ bower_components/
 .rocketeer/
 
 
-/sitemap.xml
-
+*sitemap.xml
