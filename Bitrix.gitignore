@@ -3,6 +3,7 @@
 ## Composer, https://getcomposer.org/
 composer.phar
 /vendor/
+!/vendor/.htaccess
 composer.lock
 
 ## Node and npm, https://www.npmjs.com/
@@ -11,6 +12,10 @@ npm-debug.log
 
 ## Bower, https://bower.io/
 bower_components/
+
+
+/bitrix
+
 
 /bitrix/.settings.php
 /bitrix/php_interface/dbconn.php
@@ -45,7 +50,10 @@ bower_components/
 
 /robots.txt
 
-/.htaccess
+## .htaccess, http://httpd.apache.org/docs/2.2/howto/htaccess.html
+.htaccess
+!/.htaccess.sample
+
 
 /bitrixsetup.php
 /restore.php
@@ -60,3 +68,7 @@ bower_components/
 
 # Rocketeer, http://rocketeer.autopergamene.eu/
 .rocketeer/
+
+
+/sitemap.xml
+
