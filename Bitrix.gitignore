@@ -61,6 +61,7 @@ bower_components/
 /restore.php
 
 /phpunit.xml
+!/phpunit.xml.dist
 
 ## PHP dotenv, https://github.com/vlucas/phpdotenv
 .env.*.php
@@ -73,3 +74,6 @@ bower_components/
 
 
 *sitemap.xml
+
+
+!.gitkeep
