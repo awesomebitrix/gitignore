@@ -1,6 +1,6 @@
 # Bitrix Framework
 
-## Composer, https://getcomposer.org/
+# Composer, https://getcomposer.org/
 composer.phar
 /vendor/
 !/vendor/.htaccess
