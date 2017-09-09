@@ -109,3 +109,6 @@ bower_components/
 /bitrix/panel/
 /bitrix/updates/
 /bitrix/fonts/
+
+
+.idea
