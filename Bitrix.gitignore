@@ -60,6 +60,7 @@ bower_components/
 
 /bitrixsetup.php
 /restore.php
+/bitrix/updates/
 
 /phpunit.xml
 !/phpunit.xml.dist
@@ -74,7 +75,6 @@ bower_components/
 .rocketeer/
 
 
-*sitemap.xml
-
+*sitemap.xml*
 
 !.gitkeep
