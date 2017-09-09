@@ -23,6 +23,7 @@ bower_components/
 
 ## Logs
 /bitrix/modules/error.log
+/bitrix/modules/install.log
 /bitrix/tmp/logs/*
 /bitrix/tmp/logs/!.htaccess
 *.log
