@@ -3,6 +3,9 @@
 ## JetBrains IDE configuration
 .idea
 
+## Vim 
+*.swp
+
 # Composer, https://getcomposer.org/
 composer.phar
 vendor/
