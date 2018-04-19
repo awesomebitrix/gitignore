@@ -1,0 +1,191 @@
+# Bitrix Framework
+
+## JetBrains IDE configuration
+.idea
+
+## Vim 
+*.swp
+
+# Composer, https://getcomposer.org/
+composer.phar
+vendor/
+!vendor/.htaccess
+composer.lock
+
+## Node and npm, https://www.npmjs.com/
+node_modules/
+npm-debug.log
+
+## Bower, https://bower.io/
+bower_components/
+
+## Bitrix Framework 
+
+# Excludes /bitrix fully, suppress if core or public parts 
+# should be versioned.
+/bitrix
+
+# Bitrix configuration files
+/bitrix/.settings.php
+/bitrix/php_interface/dbconn.php
+/bitrix/.settings_extra.php
+
+## Log files
+
+# Bitrix specific log files
+/bitrix/modules/error.log
+/bitrix/modules/install.log
+/bitrix/tmp/logs/*
+/bitrix/tmp/logs/!.htaccess
+
+# Common log files (note: this rules includes 
+# partly of Bitrix specic log files)
+*.log
+*.log.*
+/log.txt
+
+# Bitrix file upload folder
+/upload
+
+# Bitrix different caches
+/bitrix/cache/*
+/upload/resize_cache/*
+/bitrix/managed_cache/*
+/bitrix/stack_cache/*
+/bitrix/html_pages/*
+
+# Bitrix temporary files
+/bitrix/tmp/*
+/upload/tmp/*
+
+# Bitrix backups
+/bitrix/backup/*
+
+## Common build folders
+build/
+dist/
+
+## Robotstxt configuration
+/robots.txt
+!/robots.txt.sample
+
+## HTTP-Server configuration (http://httpd.apache.org/docs/2.2/howto/htaccess.html)
+.htaccess
+!/.htaccess.sample
+
+## Bitrix installation scripts
+/bitrixsetup.php
+/restore.php
+
+## Bitrix updates
+/bitrix/updates/
+
+## PHPUnit configuration
+phpunit.xml
+!phpunit.xml.dist
+
+## PHP dotenv configuration (https://github.com/vlucas/phpdotenv)
+.env.*.php
+.env.php
+.env
+!.env.example
+
+## Rocketeer (http://rocketeer.autopergamene.eu/)
+.rocketeer/
+
+## Sitemaps for search bots
+*sitemap.xml*
+
+## Git keeping hack
+!.gitkeep
+
+## 1C-Bitrix vendor components, activities, gadgets, etc
+# Following exclusion rules might be used when used development-in-bitrix strategy
+!/bitrix/activities
+/bitrix/activities/bitrix/
+!/bitrix/components
+/bitrix/components/bitrix/
+!/bitrix/gadgets
+/bitrix/gadgets/bitrix
+
+# 1C-Bitrix vendor site templates
+!/bitrix/templates
+/bitrix/templates/.default
+/bitrix/templates/desktop_app
+/bitrix/templates/eshop_app
+/bitrix/templates/eshop_bootstrap_green
+/bitrix/templates/learning
+/bitrix/templates/mail_user
+
+/bitrix/admin
+/bitrix/image_uploader
+/bitrix/images
+/bitrix/js
+/bitrix/otp
+/bitrix/sounds
+/bitrix/template/
+/bitrix/themes
+/bitrix/tmp
+/bitrix/tools
+/bitrix/wizards/bitrix
+/bitrix/[^/]*\.php$
+/bitrix/php_interface
+/bitrix/panel/
+/bitrix/fonts/
+
+# 1C-Bitrix vendor modules
+/bitrix/modules/abtest/
+/bitrix/modules/advertising/
+/bitrix/modules/b24connector/
+/bitrix/modules/bitrixcloud/
+/bitrix/modules/bitrix.eshop/
+/bitrix/modules/bitrix.sitecommunity/
+/bitrix/modules/bitrix.sitecorporate/
+/bitrix/modules/bitrix.siteinfoportal/
+/bitrix/modules/bitrix.sitepersonal/
+/bitrix/modules/bizproc/
+/bitrix/modules/bizprocdesigner/
+/bitrix/modules/blog/
+/bitrix/modules/calendar/
+/bitrix/modules/catalog/
+/bitrix/modules/clouds/
+/bitrix/modules/cluster/
+/bitrix/modules/compression/
+/bitrix/modules/conversion/
+/bitrix/modules/currency/
+/bitrix/modules/eshopapp/
+/bitrix/modules/fileman/
+/bitrix/modules/form/
+/bitrix/modules/forum/
+/bitrix/modules/highloadblock/
+/bitrix/modules/iblock/
+/bitrix/modules/idea/
+/bitrix/modules/im/
+/bitrix/modules/ldap/
+/bitrix/modules/learning/
+/bitrix/modules/lists/
+/bitrix/modules/mail/
+/bitrix/modules/main/
+/bitrix/modules/mobileapp/
+/bitrix/modules/perfmon/
+/bitrix/modules/photogallery/
+/bitrix/modules/pull/
+/bitrix/modules/report/
+/bitrix/modules/sale/
+/bitrix/modules/scale/
+/bitrix/modules/search/
+/bitrix/modules/security/
+/bitrix/modules/sender/
+/bitrix/modules/seo/
+/bitrix/modules/socialnetwork/
+/bitrix/modules/socialservices/
+/bitrix/modules/statistic/
+/bitrix/modules/storeassist/
+/bitrix/modules/subscribe/
+/bitrix/modules/support/
+/bitrix/modules/translate/
+/bitrix/modules/ui/
+/bitrix/modules/vote/
+/bitrix/modules/webservice/
+/bitrix/modules/wiki/
+/bitrix/modules/workflow/
